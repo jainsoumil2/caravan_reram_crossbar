@@ -1,0 +1,63 @@
+v {xschem version=3.0.0 file_version=1.2}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+
+T {@symname} -81 -6 0 0 0.3 0.3 {}
+T {@name} 135 -182 0 0 0.2 0.2 {}
+L 4 -130 -170 130 -170 {}
+L 4 -130 170 130 170 {}
+L 4 -130 -170 -130 170 {}
+L 4 130 -170 130 170 {}
+B 5 147.5 -162.5 152.5 -157.5 {name=row dir=inout }
+L 7 130 -160 150 -160 {}
+T {row} 125 -164 0 1 0.2 0.2 {}
+B 5 147.5 -142.5 152.5 -137.5 {name=VP dir=inout }
+L 7 130 -140 150 -140 {}
+T {VP} 125 -144 0 1 0.2 0.2 {}
+B 5 147.5 -122.5 152.5 -117.5 {name=VSUBS dir=inout }
+L 7 130 -120 150 -120 {}
+T {VSUBS} 125 -124 0 1 0.2 0.2 {}
+B 5 147.5 -102.5 152.5 -97.5 {name=SWref dir=inout }
+L 7 130 -100 150 -100 {}
+T {SWref} 125 -104 0 1 0.2 0.2 {}
+B 5 147.5 -82.5 152.5 -77.5 {name=SWrefb dir=inout }
+L 7 130 -80 150 -80 {}
+T {SWrefb} 125 -84 0 1 0.2 0.2 {}
+B 5 147.5 -62.5 152.5 -57.5 {name=SWrplus dir=inout }
+L 7 130 -60 150 -60 {}
+T {SWrplus} 125 -64 0 1 0.2 0.2 {}
+B 5 147.5 -42.5 152.5 -37.5 {name=SWrminus dir=inout }
+L 7 130 -40 150 -40 {}
+T {SWrminus} 125 -44 0 1 0.2 0.2 {}
+B 5 147.5 -22.5 152.5 -17.5 {name=Vgnr dir=inout }
+L 7 130 -20 150 -20 {}
+T {Vgnr} 125 -24 0 1 0.2 0.2 {}
+B 5 147.5 -2.5 152.5 2.5 {name=Vgpr dir=inout }
+L 7 130 0 150 0 {}
+T {Vgpr} 125 -4 0 1 0.2 0.2 {}
+B 5 147.5 17.5 152.5 22.5 {name=Vrminus dir=inout }
+L 7 130 20 150 20 {}
+T {Vrminus} 125 16 0 1 0.2 0.2 {}
+B 5 147.5 37.5 152.5 42.5 {name=Vrplus dir=inout }
+L 7 130 40 150 40 {}
+T {Vrplus} 125 36 0 1 0.2 0.2 {}
+B 5 147.5 57.5 152.5 62.5 {name=Vsample dir=inout }
+L 7 130 60 150 60 {}
+T {Vsample} 125 56 0 1 0.2 0.2 {}
+B 5 147.5 77.5 152.5 82.5 {name=WR dir=inout }
+L 7 130 80 150 80 {}
+T {WR} 125 76 0 1 0.2 0.2 {}
+B 5 147.5 97.5 152.5 102.5 {name=SAMPLE dir=inout }
+L 7 130 100 150 100 {}
+T {SAMPLE} 125 96 0 1 0.2 0.2 {}
+B 5 147.5 117.5 152.5 122.5 {name=SAMPLEb dir=inout }
+L 7 130 120 150 120 {}
+T {SAMPLEb} 125 116 0 1 0.2 0.2 {}
+B 5 147.5 137.5 152.5 142.5 {name=WRb dir=inout }
+L 7 130 140 150 140 {}
+T {WRb} 125 136 0 1 0.2 0.2 {}
+B 5 147.5 157.5 152.5 162.5 {name=Vref dir=inout }
+L 7 130 160 150 160 {}
+T {Vref} 125 156 0 1 0.2 0.2 {}

@@ -1,4 +1,4 @@
-v {xschem version=2.9.9 file_version=1.2 }
+v {xschem version=3.0.0 file_version=1.2 }
 G {}
 K {type=subcircuit
 format="@name @pinlist @symname"
@@ -61,7 +61,7 @@ B 5 -152.5 -62.5 -147.5 -57.5 {name=wbs_dat_i[31:0] dir=in }
 B 5 -152.5 -42.5 -147.5 -37.5 {name=wbs_adr_i[31:0] dir=in }
 B 5 147.5 -22.5 152.5 -17.5 {name=wbs_ack_o dir=out }
 B 5 147.5 -2.5 152.5 2.5 {name=wbs_dat_o[31:0] dir=out }
-B 5 -152.5 -22.5 -147.5 -17.5 {name=la_data_in[127:0] dir=in }
+B 5 -152.5 -22.5 -147.5 -17.5 {name=la_data_in[0:127] dir=in }
 B 5 147.5 17.5 152.5 22.5 {name=la_data_out[127:0] dir=out }
 B 5 -152.5 -2.5 -147.5 2.5 {name=la_oenb[127:0] dir=in }
 B 5 -152.5 17.5 -147.5 22.5 {name=io_in[26:0] dir=in }
@@ -95,7 +95,7 @@ T {wbs_dat_i[31:0]} -125 -64 0 0 0.2 0.2 {}
 T {wbs_adr_i[31:0]} -125 -44 0 0 0.2 0.2 {}
 T {wbs_ack_o} 125 -24 0 1 0.2 0.2 {}
 T {wbs_dat_o[31:0]} 125 -4 0 1 0.2 0.2 {}
-T {la_data_in[127:0]} -125 -24 0 0 0.2 0.2 {}
+T {la_data_in[0:127]} -125 -24 0 0 0.2 0.2 {}
 T {la_data_out[127:0]} 125 16 0 1 0.2 0.2 {}
 T {la_oenb[127:0]} -125 -4 0 0 0.2 0.2 {}
 T {io_in[26:0]} -125 16 0 0 0.2 0.2 {}
